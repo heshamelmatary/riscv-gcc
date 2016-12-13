@@ -2004,7 +2004,7 @@ riscv*-*-elf*)
 	;;
 riscv*-*-rtems*)
    tm_file="elfos.h newlib-stdint.h ${tm_file} riscv/elf.h riscv/rtems.h rtems.h"
-   tmake_file="${tmake_file} riscv/t-elf riscv/t-rtems"
+   tmake_file="${tmake_file} riscv/t-rtems"
    gnu_ld=yes
    gas=yes
    # Force .init_array support.  The configure script cannot always
